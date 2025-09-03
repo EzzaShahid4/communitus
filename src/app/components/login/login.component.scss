@@ -1,0 +1,64 @@
+.main-section {
+  height: 100vh;
+  background-image: url("../../../assets/login.png");
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.login-logo {
+  width: 20%;
+  height: 20%;
+}
+.heding {
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: -1.1%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* Centered text */
+.centered {
+  width: 388px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.input-label {
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  letter-spacing: -1.1%;
+  text-transform: uppercase;
+}
+input {
+  width: 388px;
+  height: 56px;
+  top: 450px;
+  left: 766px;
+  opacity: 1;
+  border-radius: 8px;
+  border-width: 1px;
+  padding: 10px;
+}
+.login-btn {
+  width: 388px;
+  height: 56px;
+  font-family: Rubik;
+  color: #ffffff;
+  background-color: #793ba2;
+}
+.forgot-text {
+  font-family: Inter;
+  text-align: right;
+}
