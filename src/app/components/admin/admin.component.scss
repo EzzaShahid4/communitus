@@ -1,0 +1,65 @@
+.app-container {
+  height: 100vh;
+  display: flex;
+  gap: 20px;
+}
+.sidebar {
+  width: 261px;
+  height: 100vh;
+  background-color: #01001e;
+  position: relative;
+}
+.side-logo {
+  position: absolute;
+  width: 212px;
+  height: 38px;
+  top: 75px;
+  left: 21px;
+  opacity: 1;
+  border-radius: 12px;
+}
+.menu {
+  list-style: none;
+  padding: 20px 15px;
+  border-radius: 16px 16px 0px 0px;
+  margin: 0px;
+}
+.menu li {
+  font-family: "Inter";
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 12px 15px;
+  //   margin: 196px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  //   color: #ffffff;
+  color: #aaa7a7;
+  text-align: center;
+  font-style: Bold;
+}
+.menu li:hover {
+  //   background-color: #ffffff;
+  //   color: #01001e;
+  color: #ffffff;
+}
+.menu li.no-hover:hover {
+  background: none !important;
+  color: inherit !important;
+}
+.menu .active {
+  background-color: #12313233;
+  color: #ffffff;
+}
+
+.main-content {
+  // Add margin to prevent content from overlapping the fixed navbar
+  //   margin-left: 262px; /* Leave space for the sidebar */
+  width: calc(100% - 262px); /* Remaining width after the sidebar */
+  // padding: 20px; /* Optional: Padding for the main content */
+  overflow-y: auto; /* Optional: Scroll if content is too long */
+  overflow-x: hidden;
+  background-color: white;
+}

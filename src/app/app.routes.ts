@@ -12,7 +12,7 @@ export const routes: Routes = [
     component: LoginComponent,
   },
   {
-    path: 'home',
+    path: 'admin',
     loadChildren: () =>
       import('./components/admin/admin.module').then((m) => m.AdminModule),
   },
