@@ -1,5 +1,5 @@
 <div class="app-container">
-  <div class="sidebar">
+  <div class="sidebar" [ngClass]="status ? 'show' : 'hide'">
     <div>
       <img class="side-logo" src="assets/sidebar-logo.png" />
     </div>
@@ -105,7 +105,7 @@
 
         <span>Sessions</span>
       </li>
-      <div style="margin-top: 270px">
+      <div class="bottom-fixed">
         <hr style="color: #d8d7d793" />
         <li [routerLink]="['/login']">
           <svg
@@ -168,6 +168,14 @@
     </ul>
   </div>
   <div class="main-content">
+    <img
+      title="Menu"
+      width="50"
+      class="show-menu"
+      [ngStyle]="{ 'margin-left': chevron == 'chevron-left' ? '15rem' : '0' }"
+      (click)="clickEvent()"
+      src="./assets/{{ chevron }}.png"
+    />
     <router-outlet></router-outlet>
   </div>
 </div>

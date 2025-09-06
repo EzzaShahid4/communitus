@@ -9,4 +9,19 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
   templateUrl: './admin.component.html',
   styleUrl: './admin.component.scss',
 })
-export class AdminComponent {}
+export class AdminComponent {
+  status: boolean = false;
+  chevron: string = 'chevron-right';
+  isAdminExit: boolean = false;
+  // constructor(private accountService: AccountService) {}
+  // ngOnInit() {
+  //   if (this.accountService.getRoles().includes('Admin')) {
+  //     this.isAdminExit = true;
+  //   }
+  // }
+  clickEvent() {
+    this.status = !this.status;
+    this.chevron =
+      this.chevron == 'chevron-right' ? 'chevron-left' : 'chevron-right';
+  }
+}

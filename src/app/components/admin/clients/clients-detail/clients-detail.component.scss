@@ -1,0 +1,72 @@
+:host {
+  display: block;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #f8f7ff;
+}
+.container {
+  padding: 0 50px; /* gap on left/right */
+}
+.input-label {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: -1.1%;
+  text-align: left;
+  color: #1e1e1e;
+}
+
+input {
+  border-radius: 12px;
+  padding: 8px;
+  border: 1px solid #c2c3c4;
+  background-color: #ffffff;
+}
+
+.top-text {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -1.1%;
+  color: #858788;
+}
+.head-text {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 24px;
+  color: #03192c;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.input-heading {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  color: #03192c;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.form-check-input[type="radio"]:checked {
+  background-color: #8236a8 !important;
+  border-color: #8236a8 !important;
+}
+.edit-btn {
+  border-radius: 8px;
+  border: 2px solid #5539cc;
+  color: #5539cc;
+  background-color: #f8f7ff;
+  padding: 8px 25px 8px 25px;
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 14px;
+}
+.client-detail {
+  padding: 0px 190px 0px 0px;
+}

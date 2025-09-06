@@ -1,1 +1,86 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global Material Table Styles */
+/* Table base */
+.mat-mdc-table {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+/* Header row */
+.mat-mdc-header-row {
+  background-color: #5539cc !important; // blue header
+  color: #fff !important;
+}
+/* Header cells */
+.mat-mdc-header-cell {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 12px;
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: -1.1%;
+  text-transform: uppercase;
+}
+/* Body rows */
+.mat-mdc-row {
+  transition: background-color 0.2s ease;
+}
+.mat-mdc-row:hover {
+  background-color: #f5f5f5;
+}
+/* Footer row */
+.mat-mdc-footer-row {
+  background-color: #f1f1f1 !important;
+  font-weight: bold;
+}
+.mat-mdc-footer-cell {
+  font-size: 13px;
+  color: #333;
+  text-align: right;
+  padding: 10px;
+}
+/* Paginator */
+.mat-mdc-paginator {
+  border-top: 1px solid #ddd;
+  background-color: #5539cc !important;
+  color: #ffffff !important;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 12px;
+  font-style: Medium;
+}
+.mat-mdc-paginator .mat-mdc-icon-button .mat-mdc-paginator-icon {
+  fill: #ffffff !important; /* arrow color */
+}
+.bold-text {
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -1.1%;
+  cursor: pointer;
+}
+.table-text {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -1.1%;
+}
+.status-btn {
+  border-radius: 20px;
+  background-color: #55adf4;
+  color: #ffffff;
+  border: none;
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  letter-spacing: -1.1%;
+  padding: 7px 25px 7px 25px;
+}

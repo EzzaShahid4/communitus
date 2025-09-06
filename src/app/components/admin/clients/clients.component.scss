@@ -1,0 +1,46 @@
+.container {
+  padding: 0 50px; /* gap on left/right */
+}
+.add-btn {
+  margin-left: auto;
+  background-color: #5539cc;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 15px 8px 15px;
+}
+.searchinput {
+  display: flex;
+  border: 2px solid #d4d4d4;
+  padding: 8px 55px 8px 15px;
+  width: 332;
+  height: 40;
+  border-radius: 8px;
+  border-width: 1px;
+}
+.input-field {
+  outline: none;
+  border: transparent;
+  padding-left: 20px;
+  min-width: 300px;
+}
+.dropdown-toggle {
+  border-radius: 8px;
+  border: 1px solid #d4d4d4;
+  color: #3a3a3a;
+  padding: 5px 15px 5px 15px;
+}
+.menu .active {
+  background-color: #12313233;
+  color: #ffffff;
+}
+.client-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.client-link.active {
+  font-weight: bold;
+  color: white; // highlight color when active
+}
